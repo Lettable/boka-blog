@@ -58,7 +58,7 @@
 6. Visit `http://localhost:<PORT>` to view the blog web app locally.
 
 ## Hosting
-The project is hosted on **Vercel** for high-performance deployment. You can view the live demo [here](#).
+The project is hosted on **Vercel** for high-performance deployment. You can view the live demo [here](https://boka-blog-six.vercel.app/).
 
 ## Contributing
 Contributions are always welcome! To contribute:
