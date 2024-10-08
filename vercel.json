@@ -11,12 +11,6 @@
         "src": "/(.*)",
         "dest": "app.js"
       }
-    ],
-    "functions": {
-      "app.js": {
-        "memory": 1024,
-        "maxDuration": 10
-      }
-    }
+    ]
   }
   
