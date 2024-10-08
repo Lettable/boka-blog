@@ -8,7 +8,7 @@ const methodOverride = require('method-override');
 const Fs = require('fs');
 
 const app = express();
-const PORT = 6455 || process.env.PORT;
+const PORT = process.env.PORT || 6455;
 
 // Conncect the db
 connectDB();
