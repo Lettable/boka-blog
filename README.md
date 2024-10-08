@@ -52,7 +52,7 @@
 
 5. Start the development server:
    ```bash
-   node app.js
+   npm start
    ```
 
 6. Visit `http://localhost:<PORT>` to view the blog web app locally.
