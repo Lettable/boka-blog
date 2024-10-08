@@ -40,14 +40,22 @@
    npm install
    ```
 
-4. Set up your **MongoDB** connection string in the environment variables.
+4. Create a `.env` file in the root of your project and add the following configuration:
+
+   ```env
+   MONGODB_URI=
+   JWT_SECRET=
+   PORT=
+   ```
+
+   **Note**: If you are hosting on Vercel, you do not need to include `PORT` in your `.env` file.
 
 5. Start the development server:
    ```bash
-   npm start
+   node app.js
    ```
 
-6. Visit `http://localhost:3000` to view the blog web app locally.
+6. Visit `http://localhost:<PORT>` to view the blog web app locally.
 
 ## Hosting
 The project is hosted on **Vercel** for high-performance deployment. You can view the live demo [here](#).
@@ -66,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Connect with Me
 - **GitHub**: [Lettable](https://github.com/Lettable)
-- **Instagram**: [@durovism](https://instagram.com/durovism)
+- **E-mail**: [@MirzaDevOfficial](mailto:MirzaDevOfficial@gmail.com)
